@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+gemset='Trial'
+ruby_version='ruby-1.9.2-p290'
+
+rvm_gemset_create_on_use_flag=1
+rvm use "${ruby_version}@${gemset}"
